@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="airline.xsd">
+    <planes>
+        <passengerPlane>
+            <id>lol</id>
+            <model>Airbus 310</model>
+            <engine>General Electric CF6-80C2A8</engine>
+            <totalNumberOfSeats>280</totalNumberOfSeats>
+            <capacity>164100</capacity>
+            <rangeOfFlight>9540</rangeOfFlight>
+            <hourlyFuelConsumption>1820</hourlyFuelConsumption>
+            <maximumAltitude>12.1</maximumAltitude>
+            <manufacturerCountry>Франция</manufacturerCountry>
+            <planeClass>Эконом-класс</planeClass>
+            <averageCostOfFlight>291.5</averageCostOfFlight>
+        </passengerPlane>
+        <passengerPlane>
+            <id>112</id>
+            <model>Boeing 737-200</model>
+            <engine>PW JT8D-15A</engine>
+            <totalNumberOfSeats>130</totalNumberOfSeats>
+            <capacity>157000</capacity>
+            <rangeOfFlight>3160</rangeOfFlight>
+            <hourlyFuelConsumption>2800</hourlyFuelConsumption>
+            <maximumAltitude>9.3</maximumAltitude>
+            <manufacturerCountry>США</manufacturerCountry>
+            <planeClass>Эконом-класс</planeClass>
+            <averageCostOfFlight>180.7</averageCostOfFlight>
+        </passengerPlane>
+        <passengerPlane>
+            <id>113</id>
+            <model>Bae 146 Avro RJ</model>
+            <engine>Honeywell LF 507-1F</engine>
+            <totalNumberOfSeats>85</totalNumberOfSeats>
+            <capacity>42185</capacity>
+            <rangeOfFlight>2530</rangeOfFlight>
+            <hourlyFuelConsumption>2320</hourlyFuelConsumption>
+            <maximumAltitude>10.6</maximumAltitude>
+            <manufacturerCountry>Англия</manufacturerCountry>
+            <planeClass>Эконом-класс</planeClass>
+            <averageCostOfFlight>156.5</averageCostOfFlight>
+        </passengerPlane>
+
+        <mailPlane>
+            <id>211</id>
+            <model>AH-2</model>
+            <engine>ТВД-20</engine>
+            <totalNumberOfSeats>2</totalNumberOfSeats>
+            <capacity>1500</capacity>
+            <rangeOfFlight>990</rangeOfFlight>
+            <hourlyFuelConsumption>1350</hourlyFuelConsumption>
+            <maximumAltitude>4.2</maximumAltitude>
+            <costOfDelivery>250</costOfDelivery>
+            <speedDelivery>12</speedDelivery>
+            <recipientCountry>Россия</recipientCountry>
+        </mailPlane>
+
+        <cargoAircraft>
+            <id>311</id>
+            <model>Airbus 300 B4</model>
+            <engine>General Electric CD-7</engine>
+            <totalNumberOfSeats>2</totalNumberOfSeats>
+            <capacity>43500</capacity>
+            <rangeOfFlight>2700</rangeOfFlight>
+            <hourlyFuelConsumption>2100</hourlyFuelConsumption>
+            <maximumAltitude>8.7</maximumAltitude>
+            <maximumCargoVolume>280</maximumCargoVolume>
+            <sizeOfCargoCompartment>39x77x23</sizeOfCargoCompartment>
+            <sizeOfCargoHatch>3.58x2.56</sizeOfCargoHatch>
+        </cargoAircraft>
+
+        <cargoAndPassengerPlane>
+            <id>411</id>
+            <model>MCDonnell Douglas MD-11</model>
+            <engine>Pratt and Whitney PW4460</engine>
+            <totalNumberOfSeats>298</totalNumberOfSeats>
+            <capacity>273300</capacity>
+            <rangeOfFlight>8500</rangeOfFlight>
+            <hourlyFuelConsumption>2130</hourlyFuelConsumption>
+            <maximumAltitude>12.6</maximumAltitude>
+            <maximumCargoVolume>338.9</maximumCargoVolume>
+            <fullSpeed>876</fullSpeed>
+            <fuelSupply>2054</fuelSupply>
+        </cargoAndPassengerPlane>
+
+        <militaryCivilianAirliner>
+            <id>511</id>
+            <model>Lockheed C-130 Hercules</model>
+            <engine>HC 130-H</engine>
+            <totalNumberOfSeats>62</totalNumberOfSeats>
+            <capacity>19955</capacity>
+            <rangeOfFlight>5250</rangeOfFlight>
+            <hourlyFuelConsumption>1660</hourlyFuelConsumption>
+            <maximumAltitude>9.315</maximumAltitude>
+            <maximumCargoVolume>128.9</maximumCargoVolume>
+            <runLength>280</runLength>
+            <maximumTakeOffWeight>79380</maximumTakeOffWeight>
+        </militaryCivilianAirliner>
+    </planes>
+</airline>

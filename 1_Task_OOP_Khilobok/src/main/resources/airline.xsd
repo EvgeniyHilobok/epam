@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+    <xs:element name="airline">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="planes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="passengerPlane" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:long"/>
+                                        <xs:element name="model" type="xs:string"/>
+                                        <xs:element name="engine" type="xs:string"/>
+                                        <xs:element name="totalNumberOfSeats" type="xs:int"/>
+                                        <xs:element name="capacity" type="xs:double"/>
+                                        <xs:element name="rangeOfFlight" type="xs:double"/>
+                                        <xs:element name="hourlyFuelConsumption" type="xs:double"/>
+                                        <xs:element name="maximumAltitude" type="xs:double"/>
+                                        <xs:element name="manufacturerCountry" type="xs:string"/>
+                                        <xs:element name="planeClass" type="xs:string"/>
+                                        <xs:element name="averageCostOfFlight" type="xs:double"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="mailPlane">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:long"/>
+                                        <xs:element name="model" type="xs:string"/>
+                                        <xs:element name="engine" type="xs:string"/>
+                                        <xs:element name="totalNumberOfSeats" type="xs:int"/>
+                                        <xs:element name="capacity" type="xs:double"/>
+                                        <xs:element name="rangeOfFlight" type="xs:double"/>
+                                        <xs:element name="hourlyFuelConsumption" type="xs:double"/>
+                                        <xs:element name="maximumAltitude" type="xs:double"/>
+                                        <xs:element name="costOfDelivery" type="xs:double"/>
+                                        <xs:element name="speedDelivery" type="xs:double"/>
+                                        <xs:element name="recipientCountry" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cargoAircraft">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:long"/>
+                                        <xs:element name="model" type="xs:string"/>
+                                        <xs:element name="engine" type="xs:string"/>
+                                        <xs:element name="totalNumberOfSeats" type="xs:int"/>
+                                        <xs:element name="capacity" type="xs:double"/>
+                                        <xs:element name="rangeOfFlight" type="xs:double"/>
+                                        <xs:element name="hourlyFuelConsumption" type="xs:double"/>
+                                        <xs:element name="maximumAltitude" type="xs:double"/>
+                                        <xs:element name="maximumCargoVolume" type="xs:double"/>
+                                        <xs:element name="sizeOfCargoCompartment" type="xs:string"/>
+                                        <xs:element name="sizeOfCargoHatch" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cargoAndPassengerPlane">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:long"/>
+                                        <xs:element name="model" type="xs:string"/>
+                                        <xs:element name="engine" type="xs:string"/>
+                                        <xs:element name="totalNumberOfSeats" type="xs:int"/>
+                                        <xs:element name="capacity" type="xs:double"/>
+                                        <xs:element name="rangeOfFlight" type="xs:double"/>
+                                        <xs:element name="hourlyFuelConsumption" type="xs:double"/>
+                                        <xs:element name="maximumAltitude" type="xs:double"/>
+                                        <xs:element name="maximumCargoVolume" type="xs:double"/>
+                                        <xs:element name="fullSpeed" type="xs:double"/>
+                                        <xs:element name="fuelSupply" type="xs:double"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="militaryCivilianAirliner">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:long"/>
+                                        <xs:element name="model" type="xs:string"/>
+                                        <xs:element name="engine" type="xs:string"/>
+                                        <xs:element name="totalNumberOfSeats" type="xs:int"/>
+                                        <xs:element name="capacity" type="xs:double"/>
+                                        <xs:element name="rangeOfFlight" type="xs:double"/>
+                                        <xs:element name="hourlyFuelConsumption" type="xs:double"/>
+                                        <xs:element name="maximumAltitude" type="xs:double"/>
+                                        <xs:element name="maximumCargoVolume" type="xs:double"/>
+                                        <xs:element name="runLength" type="xs:double"/>
+                                        <xs:element name="maximumTakeOffWeight" type="xs:double"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

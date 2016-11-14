@@ -1,0 +1,310 @@
+﻿2016-06-18 16:32:56 INFO Demo:27 - Creation of airline is successful!
+2016-06-18 16:32:56 INFO Demo:31 - Original airline: 
+1)Model: Airbus 310
+ Engine: General Electric CF6-80C2A8
+ Type: PassengerPlane
+ Total number of seats: 280 pc.
+ Capacity: 164100.0 kg.
+ Range of flight: 9540.0 km.
+ Hourly fuel consumption: 1820.0 kg.
+ Maximum altitude: 12.1 km.
+ Manufacturer country: Франция
+ Class of plane: Эконом-класс
+ The average cost of the flight: 291.5 USD
+
+2)Model: Boeing 737-200
+ Engine: PW JT8D-15A
+ Type: PassengerPlane
+ Total number of seats: 130 pc.
+ Capacity: 157000.0 kg.
+ Range of flight: 3160.0 km.
+ Hourly fuel consumption: 2800.0 kg.
+ Maximum altitude: 9.3 km.
+ Manufacturer country: США
+ Class of plane: Эконом-класс
+ The average cost of the flight: 180.7 USD
+
+3)Model: Bae 146 Avro RJ
+ Engine: Honeywell LF 507-1F
+ Type: PassengerPlane
+ Total number of seats: 85 pc.
+ Capacity: 42185.0 kg.
+ Range of flight: 2530.0 km.
+ Hourly fuel consumption: 2320.0 kg.
+ Maximum altitude: 10.6 km.
+ Manufacturer country: Англия
+ Class of plane: Эконом-класс
+ The average cost of the flight: 156.5 USD
+
+4)Model: AH-2
+ Engine: ТВД-20
+ Type: MailPlane
+ Total number of seats: 2 pc.
+ Capacity: 1500.0 kg.
+ Range of flight: 990.0 km.
+ Hourly fuel consumption: 1350.0 kg.
+ Maximum altitude: 4.2 km.
+ Cost of delivery: 250.0 USD
+ Speed delivery: 12.0 hours
+ Recipient country: Россия
+
+5)Model: Airbus 300 B4
+ Engine: General Electric CD-7
+ Type: CargoAircraft
+ Total number of seats: 2 pc.
+ Capacity: 43500.0 kg.
+ Range of flight: 2700.0 km.
+ Hourly fuel consumption: 2100.0 kg.
+ Maximum altitude: 8.7 km.
+ Maximum cargo volume: 280.0 m3.
+ The size of the cargo compartment: 39x77x23 m.
+ The size of the cargo hatch: 3.58x2.56 m.
+
+6)Model: MCDonnell Douglas MD-11
+ Engine: Pratt and Whitney PW4460
+ Type: CargoAndPassengerPlane
+ Total number of seats: 298 pc.
+ Capacity: 273300.0 kg.
+ Range of flight: 8500.0 km.
+ Hourly fuel consumption: 2130.0 kg.
+ Maximum altitude: 12.6 km.
+ Maximum cargo volume: 338.9 m3.
+ Full speed: 876.0 km/h.
+ Fuel supply: 2054.0 liters
+
+7)Model: Lockheed C-130 Hercules
+ Engine: HC 130-H
+ Type: MilitaryCivilianAirliner
+ Total number of seats: 62 pc.
+ Capacity: 19955.0 kg.
+ Range of flight: 5250.0 km.
+ Hourly fuel consumption: 1660.0 kg.
+ Maximum altitude: 9.315 km.
+ Maximum cargo volume: 128.9 m3.
+ The run length: 280.0 m.
+ Maximum take off weight: 79380.0 kg.
+
+2016-06-18 16:32:56 INFO Demo:33 - Overall performance:
+2016-06-18 16:32:56 INFO PerformanceCalculation:22 - You are logged into calculationOfTotalNumberSeats method
+2016-06-18 16:32:56 INFO Demo:35 - The total number of seats (pc.): 859.0
+2016-06-18 16:32:56 INFO PerformanceCalculation:33 - You are logged into calculationOfTotalCapacity method
+2016-06-18 16:32:56 INFO Demo:37 - The total load capacity (kg.): 701540.0
+2016-06-18 16:32:56 INFO PlaneSorting:24 - You are logged into sortingByRangeOfFlight method
+2016-06-18 16:32:56 INFO Demo:45 - Sort ascending by range of flight: 
+1)Model: AH-2
+ Engine: ТВД-20
+ Type: MailPlane
+ Total number of seats: 2 pc.
+ Capacity: 1500.0 kg.
+ Range of flight: 990.0 km.
+ Hourly fuel consumption: 1350.0 kg.
+ Maximum altitude: 4.2 km.
+ Cost of delivery: 250.0 USD
+ Speed delivery: 12.0 hours
+ Recipient country: Россия
+
+2)Model: Bae 146 Avro RJ
+ Engine: Honeywell LF 507-1F
+ Type: PassengerPlane
+ Total number of seats: 85 pc.
+ Capacity: 42185.0 kg.
+ Range of flight: 2530.0 km.
+ Hourly fuel consumption: 2320.0 kg.
+ Maximum altitude: 10.6 km.
+ Manufacturer country: Англия
+ Class of plane: Эконом-класс
+ The average cost of the flight: 156.5 USD
+
+3)Model: Airbus 300 B4
+ Engine: General Electric CD-7
+ Type: CargoAircraft
+ Total number of seats: 2 pc.
+ Capacity: 43500.0 kg.
+ Range of flight: 2700.0 km.
+ Hourly fuel consumption: 2100.0 kg.
+ Maximum altitude: 8.7 km.
+ Maximum cargo volume: 280.0 m3.
+ The size of the cargo compartment: 39x77x23 m.
+ The size of the cargo hatch: 3.58x2.56 m.
+
+4)Model: Boeing 737-200
+ Engine: PW JT8D-15A
+ Type: PassengerPlane
+ Total number of seats: 130 pc.
+ Capacity: 157000.0 kg.
+ Range of flight: 3160.0 km.
+ Hourly fuel consumption: 2800.0 kg.
+ Maximum altitude: 9.3 km.
+ Manufacturer country: США
+ Class of plane: Эконом-класс
+ The average cost of the flight: 180.7 USD
+
+5)Model: Lockheed C-130 Hercules
+ Engine: HC 130-H
+ Type: MilitaryCivilianAirliner
+ Total number of seats: 62 pc.
+ Capacity: 19955.0 kg.
+ Range of flight: 5250.0 km.
+ Hourly fuel consumption: 1660.0 kg.
+ Maximum altitude: 9.315 km.
+ Maximum cargo volume: 128.9 m3.
+ The run length: 280.0 m.
+ Maximum take off weight: 79380.0 kg.
+
+6)Model: MCDonnell Douglas MD-11
+ Engine: Pratt and Whitney PW4460
+ Type: CargoAndPassengerPlane
+ Total number of seats: 298 pc.
+ Capacity: 273300.0 kg.
+ Range of flight: 8500.0 km.
+ Hourly fuel consumption: 2130.0 kg.
+ Maximum altitude: 12.6 km.
+ Maximum cargo volume: 338.9 m3.
+ Full speed: 876.0 km/h.
+ Fuel supply: 2054.0 liters
+
+7)Model: Airbus 310
+ Engine: General Electric CF6-80C2A8
+ Type: PassengerPlane
+ Total number of seats: 280 pc.
+ Capacity: 164100.0 kg.
+ Range of flight: 9540.0 km.
+ Hourly fuel consumption: 1820.0 kg.
+ Maximum altitude: 12.1 km.
+ Manufacturer country: Франция
+ Class of plane: Эконом-класс
+ The average cost of the flight: 291.5 USD
+
+2016-06-18 16:32:56 INFO PlaneSorting:24 - You are logged into sortingByRangeOfFlight method
+2016-06-18 16:32:56 INFO Demo:49 - Sort descending by range of flight: 
+1)Model: Airbus 310
+ Engine: General Electric CF6-80C2A8
+ Type: PassengerPlane
+ Total number of seats: 280 pc.
+ Capacity: 164100.0 kg.
+ Range of flight: 9540.0 km.
+ Hourly fuel consumption: 1820.0 kg.
+ Maximum altitude: 12.1 km.
+ Manufacturer country: Франция
+ Class of plane: Эконом-класс
+ The average cost of the flight: 291.5 USD
+
+2)Model: MCDonnell Douglas MD-11
+ Engine: Pratt and Whitney PW4460
+ Type: CargoAndPassengerPlane
+ Total number of seats: 298 pc.
+ Capacity: 273300.0 kg.
+ Range of flight: 8500.0 km.
+ Hourly fuel consumption: 2130.0 kg.
+ Maximum altitude: 12.6 km.
+ Maximum cargo volume: 338.9 m3.
+ Full speed: 876.0 km/h.
+ Fuel supply: 2054.0 liters
+
+3)Model: Lockheed C-130 Hercules
+ Engine: HC 130-H
+ Type: MilitaryCivilianAirliner
+ Total number of seats: 62 pc.
+ Capacity: 19955.0 kg.
+ Range of flight: 5250.0 km.
+ Hourly fuel consumption: 1660.0 kg.
+ Maximum altitude: 9.315 km.
+ Maximum cargo volume: 128.9 m3.
+ The run length: 280.0 m.
+ Maximum take off weight: 79380.0 kg.
+
+4)Model: Boeing 737-200
+ Engine: PW JT8D-15A
+ Type: PassengerPlane
+ Total number of seats: 130 pc.
+ Capacity: 157000.0 kg.
+ Range of flight: 3160.0 km.
+ Hourly fuel consumption: 2800.0 kg.
+ Maximum altitude: 9.3 km.
+ Manufacturer country: США
+ Class of plane: Эконом-класс
+ The average cost of the flight: 180.7 USD
+
+5)Model: Airbus 300 B4
+ Engine: General Electric CD-7
+ Type: CargoAircraft
+ Total number of seats: 2 pc.
+ Capacity: 43500.0 kg.
+ Range of flight: 2700.0 km.
+ Hourly fuel consumption: 2100.0 kg.
+ Maximum altitude: 8.7 km.
+ Maximum cargo volume: 280.0 m3.
+ The size of the cargo compartment: 39x77x23 m.
+ The size of the cargo hatch: 3.58x2.56 m.
+
+6)Model: Bae 146 Avro RJ
+ Engine: Honeywell LF 507-1F
+ Type: PassengerPlane
+ Total number of seats: 85 pc.
+ Capacity: 42185.0 kg.
+ Range of flight: 2530.0 km.
+ Hourly fuel consumption: 2320.0 kg.
+ Maximum altitude: 10.6 km.
+ Manufacturer country: Англия
+ Class of plane: Эконом-класс
+ The average cost of the flight: 156.5 USD
+
+7)Model: AH-2
+ Engine: ТВД-20
+ Type: MailPlane
+ Total number of seats: 2 pc.
+ Capacity: 1500.0 kg.
+ Range of flight: 990.0 km.
+ Hourly fuel consumption: 1350.0 kg.
+ Maximum altitude: 4.2 km.
+ Cost of delivery: 250.0 USD
+ Speed delivery: 12.0 hours
+ Recipient country: Россия
+
+2016-06-18 16:32:56 INFO PlaneFiltering:15 - You are logged into filteringByHourlyFuelConsumption method
+2016-06-18 16:32:56 INFO Demo:55 - Filtering by hourly fuel consumption(between 1000.0 and 2000.0): 
+1)Model: Airbus 310
+ Engine: General Electric CF6-80C2A8
+ Type: PassengerPlane
+ Total number of seats: 280 pc.
+ Capacity: 164100.0 kg.
+ Range of flight: 9540.0 km.
+ Hourly fuel consumption: 1820.0 kg.
+ Maximum altitude: 12.1 km.
+ Manufacturer country: Франция
+ Class of plane: Эконом-класс
+ The average cost of the flight: 291.5 USD
+
+2)Model: AH-2
+ Engine: ТВД-20
+ Type: MailPlane
+ Total number of seats: 2 pc.
+ Capacity: 1500.0 kg.
+ Range of flight: 990.0 km.
+ Hourly fuel consumption: 1350.0 kg.
+ Maximum altitude: 4.2 km.
+ Cost of delivery: 250.0 USD
+ Speed delivery: 12.0 hours
+ Recipient country: Россия
+
+3)Model: Lockheed C-130 Hercules
+ Engine: HC 130-H
+ Type: MilitaryCivilianAirliner
+ Total number of seats: 62 pc.
+ Capacity: 19955.0 kg.
+ Range of flight: 5250.0 km.
+ Hourly fuel consumption: 1660.0 kg.
+ Maximum altitude: 9.315 km.
+ Maximum cargo volume: 128.9 m3.
+ The run length: 280.0 m.
+ Maximum take off weight: 79380.0 kg.
+
+2016-06-18 16:33:52 INFO PlaneFiltering:15 - You are logged into filteringByHourlyFuelConsumption method
+2016-06-18 16:33:52 INFO PlaneFiltering:24 - There are no planes in this hourly fuel consumption range!
+2016-06-18 16:33:52 INFO PlaneFiltering:15 - You are logged into filteringByHourlyFuelConsumption method
+
+2016-06-19 09:41:42 ERROR DOMParserXMLImpl:82 - by.epam.airline.exceptions.PlaneLogicException: Total number of seats is incorrect!
+
+2016-06-19 09:56:45 ERROR DOMParserXMLImpl:82 - by.epam.airline.exceptions.PlaneTechnicalException: Incorrect symbol in passenger plane object fields!
+
+kmkmklkmlkm
