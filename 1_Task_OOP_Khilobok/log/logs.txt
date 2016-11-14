@@ -307,4 +307,3 @@
 
 2016-06-19 09:56:45 ERROR DOMParserXMLImpl:82 - by.epam.airline.exceptions.PlaneTechnicalException: Incorrect symbol in passenger plane object fields!
 
-kmkmklkmlkm
